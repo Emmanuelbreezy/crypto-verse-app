@@ -25,7 +25,7 @@ export default function News({simplified}) {
         <Row gutter={[24,24]}>
            {data?.value.map((news,i)  => (
                <Col xs={24} sm={12} lg={8} key={i} style={{padding:"0.5rem"}}>
-                    <a href={news.url} target="_blank"><Card hoverable 
+                    <a href={news.url} target="_blank" rel="noreferrer"><Card hoverable 
                        cover={<Image  src={news?.image?.thumbnail?.contentUrl || demoImage} width="400px" height="250px" />}
                      >
                            <div className="ncontainer">

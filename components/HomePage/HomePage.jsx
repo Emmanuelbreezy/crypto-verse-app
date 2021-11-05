@@ -13,7 +13,7 @@ export default function HomePage() {
         
     if(isFetching) return 'Loading..';
 
-    if(!data) return (<Layout><h1>Data couldn't be fetch, Check your connection</h1></Layout>);
+    if(!data) return (<Layout><h1>Data couldn&apos;t be fetch, Check your connection</h1></Layout>);
 
 
     return (
